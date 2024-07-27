@@ -1,0 +1,38 @@
+site_name: Website of Copper424
+site_description: Website of Copper424
+site_author: Copper424
+site_url: https://copper424.github.io/
+theme:
+  name: material
+  features:
+    - navigation.indexes
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+plugins:
+  - search
+  - blog:
+      categories: true
+      archive_toc: true
+      categories_toc: true
+      blog_toc: true
+  - tags:
+      enabled: true
+      tags_file: tags.md
