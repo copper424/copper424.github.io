@@ -6,6 +6,7 @@ categories:
   - Router
 tags:
   - Computer Network
+comments: true
 ---
 # OpenWRT IPv6 configuration for Xiaomi router 3 pro
 

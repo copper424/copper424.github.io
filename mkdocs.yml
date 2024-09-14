@@ -4,6 +4,7 @@ site_author: Copper424
 site_url: https://copper424.github.io/
 theme:
   name: material
+  custom_dir: overrides
   features:
     - navigation.indexes
   palette:

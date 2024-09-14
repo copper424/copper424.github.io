@@ -6,6 +6,7 @@ categories:
   - Router
 tags:
   - Computer Network
+comments: true
 ---
 
 # 在小米路由器 3 Pro 上使用 Minieap 实现中山大学东校区有线上网。
